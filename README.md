@@ -1,6 +1,6 @@
 # npmtest-url-join
 
-#### basic test coverage for  url-join (v2.0.1)  [![npm package](https://img.shields.io/npm/v/npmtest-url-join.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-url-join) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-url-join.svg)](https://travis-ci.org/npmtest/node-npmtest-url-join)
+#### basic test coverage for  [url-join (v2.0.1)](https://github.com/jfromaniello/url-join#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-url-join.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-url-join) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-url-join.svg)](https://travis-ci.org/npmtest/node-npmtest-url-join)
 
 #### Join urls and normalize as in path.join.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-url-join/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-url-join/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-url-join/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-url-join/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-url-join/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-url-join/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-url-join/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-url-join/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-url-join/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-url-join/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-url-join/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-url-join/build/coverage.html/index.html)
 
@@ -35,27 +35,48 @@
 ```json
 
 {
-    "name": "url-join",
-    "version": "2.0.1",
+    "author": {
+        "name": "José F. Romaniello",
+        "url": "http://joseoncode.com"
+    },
+    "bugs": {
+        "url": "https://github.com/jfromaniello/url-join/issues"
+    },
+    "dependencies": {},
     "description": "Join urls and normalize as in path.join.",
-    "main": "lib/url-join.js",
-    "scripts": {
-        "test": "mocha --require should"
+    "devDependencies": {
+        "mocha": "^3.2.0",
+        "should": "~1.2.1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jfromaniello/url-join.git"
+    "directories": {},
+    "dist": {
+        "shasum": "04b446fcd359a2fa42cc9b6962b219b91ddfe1a8",
+        "tarball": "https://registry.npmjs.org/url-join/-/url-join-2.0.1.tgz"
     },
+    "gitHead": "6f5adc60206a276604a7265637c70d440061761e",
+    "homepage": "https://github.com/jfromaniello/url-join#readme",
     "keywords": [
         "url",
         "join"
     ],
-    "author": "José F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com)",
     "license": "MIT",
-    "devDependencies": {
-        "mocha": "^3.2.0",
-        "should": "~1.2.1"
-    }
+    "main": "lib/url-join.js",
+    "maintainers": [
+        {
+            "name": "jfromaniello"
+        }
+    ],
+    "name": "url-join",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jfromaniello/url-join.git"
+    },
+    "scripts": {
+        "test": "mocha --require should"
+    },
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
